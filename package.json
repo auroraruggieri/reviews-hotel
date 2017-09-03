@@ -1,5 +1,5 @@
 {
-  "name": "Reviews Hotel",
+  "name": "reviews-hotel",
   "version": "1.0.0",
   "description": "This repo contains the Review Hotel application that is built through Coursera Full Stack Web Development Capstone Project.",
   "main": "app.js",
