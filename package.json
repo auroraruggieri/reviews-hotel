@@ -1,0 +1,34 @@
+{
+  "name": "Reviews Hotel",
+  "version": "1.0.0",
+  "description": "This repo contains the Review Hotel application that is built through Coursera Full Stack Web Development Capstone Project.",
+  "main": "app.js",
+  "engines": {
+    "node": "8.2.1",
+    "npm": "5.3.0"
+  },
+  "dependencies": {
+    "angular": "^1.5.6",
+    "angular-route": "^1.5.6",
+    "angular-jwt": "^0.0.9",
+    "bcrypt-nodejs": "^0.0.3",
+    "jsonwebtoken": "^7.1.3",
+    "body-parser": "^1.14.2",
+    "express": "^4.13.3",
+    "mongodb": "^2.1.7",
+    "mongoose": "^4.4.8"
+  },
+  "devDependencies": {
+    "mocha": "^2.3.3"
+  },
+  "scripts": {
+    "start": "node app.js",
+	"deploy": "git push origin master && git push heroku master",
+	"test": "mocha"
+  },
+  "author": "Aurora Ruggieri",
+  "keywords": [
+    "FullStack"
+  ],
+  "license": "ISC"
+}
